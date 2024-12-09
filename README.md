@@ -1,4 +1,13 @@
+# «CPS-Service»
 
-                Смотри как финальный макет 
-                только 
-                без веб пака и препроцессоров
+basic
+
+### Used
+
+```shell
+- [x] HTML
+- [x] SCSS
+- [x] JavaScript
+- [x] Swiper
+- [x] Webpack 5
+```
