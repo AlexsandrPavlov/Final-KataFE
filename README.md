@@ -1,11 +1,16 @@
-## Commands/Команды:
+# «CPS-Service»
 
-### Install template/Установка шаблона
+### Used
 
 ```shell
-git clone "last version template"
-npm i
+- [x] HTML
+- [x] SCSS
+- [x] JavaScript
+- [x] Swiper
+- [x] Webpack 5
 ```
+
+## Commands/Команды:
 
 ### Starting a server for development/Запуск локального сервера для разработки
 
