@@ -91,7 +91,7 @@
 			</header>
 
 			<div class="contenet_container">
-				<aside class="dropdown-container">
+				<aside class="dropdown">
 					<div class="dropdown-container__wrap">
 						<nav class="dropdown-menu">
 							<div class="dropdown_list-container">
@@ -115,60 +115,60 @@
 							</div>
 						</nav>
 
-						<nav class="dropdown-menu-container">
-							<ul class="dropdown-menu__list">
-								<li class="dropdown-menu__list-item">
+						<nav class="dropdown-main-menu">
+							<ul class="dropdown-main-menu__list">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Ремонт техники</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Услуги и сервисы</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--active dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Корпоративным клиентам</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Продавцам техники</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--active dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Партнерам</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Производителям</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Наши сервисные центры</a
 									>
 								</li>
-								<li class="dropdown-menu__list-item">
+								<li class="dropdown-main-menu__list-item">
 									<a
-										class="dropdown-menu__list-item__link--disabled dropdown-menu__list-item__link--hover"
+										class="dropdown-main-menu__list-item__link--disabled dropdown-main-menu__list-item__link--hover"
 										href=""
 										>Контакты</a
 									>
@@ -176,9 +176,9 @@
 							</ul>
 						</nav>
 
-						<nav class="dropdown-footer-container">
+						<nav class="dropdown-footer">
 							<ul class="dropdown-footer-menu-list">
-								<li class="fdropdown-ooter-item">
+								<li class="dropdown-footer-item">
 									<button
 										class="dropdown-footer-button dropdown-footer-button__call"
 									>
@@ -201,22 +201,30 @@
 								</li>
 							</ul>
 
-							<div class="dropdown-contact-container">
-								<a class="contact__mail" href="mailto:mail@cps.com"
+							<div class="dropdown-contact">
+								<a
+									class="dropdown-contact__mail"
+									href="mailto:mail@cps.com"
 									>mail@cps.com</a
 								>
-								<a class="contact__tel" href="tel:+78008908900"
+								<a class="dropdown-contact__tel" href="tel:+78008908900"
 									>8 800 890 8900</a
 								>
 							</div>
-							<div class="dropdown-language-container">
-								<a class="language__link language__link--active" href=""
+							<div class="dropdown-language">
+								<a
+									class="dropdown-language__link dropdown-language__link--active"
+									href=""
 									>RU</a
 								>
-								<a class="language__link language__link--disabled" href=""
+								<a
+									class="dropdown-language__link dropdown-language--disabled"
+									href=""
 									>EN</a
 								>
-								<a class="language__link language__link--disabled" href=""
+								<a
+									class="dropdown-language__link dropdown-language--disabled"
+									href=""
 									>CH</a
 								>
 							</div>
@@ -230,8 +238,8 @@
 					</button>
 
 					<div class="modal-title">
-						<span class="line"></span>
-						<h2 class="title__text">Заказать звонок</h2>
+						<span class="modal-title__line"></span>
+						<h2 class="modal-title__text">Заказать звонок</h2>
 					</div>
 
 					<form action="/">
@@ -274,8 +282,8 @@
 					</button>
 
 					<div class="modal-title">
-						<span class="line"></span>
-						<h2 class="title__text">Обратная связь</h2>
+						<span class="modal-title__line"></span>
+						<h2 class="modal-title__text">Обратная связь</h2>
 					</div>
 
 					<form action="/">
@@ -395,9 +403,7 @@
 					<div class="about-container">
 						<div class="section-info-container">
 							<div class="about-text-section">
-								<p
-									class="about-text-section__visible about-text-section__visible--mg"
-								>
+								<p class="about-text-section__visible">
 									Мы являемся авторизованным сервисным центром по ремонту
 									техники Dell. Только у нас вы можете отремонтировать свой
 									ноутбук Dell с официальной гарантией производителя.
@@ -1260,7 +1266,7 @@
 							<span class="conditions-link__arrow-image"></span>
 						</a>
 					</div>
-					<footer class="footer-container">
+					<footer class="footer footer-container">
 						<div class="footer-company-info">
 							<p class="footer-company-info__year">© 2019 CPS</p>
 							<p class="footer-company-info__text">

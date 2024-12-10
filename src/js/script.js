@@ -20,7 +20,7 @@ const brand_control = document.querySelector('.brand-control');
 const repairControl = document.querySelector('.repair-control');
 
 // блоки
-const dropdown = document.querySelector('.dropdown-container');
+const dropdown = document.querySelector('.dropdown');
 const modal_call = document.querySelector('.modal-call');
 const modal_message = document.querySelector('.modal-message');
 const hiddenText = document.querySelector('.about-text-section');
